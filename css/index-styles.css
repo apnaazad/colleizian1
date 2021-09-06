@@ -1,0 +1,58 @@
+*{margin: 0; padding: 0; font-family: sans-serif;}
+
+.container{width: 100%; height: 100%;}
+
+/* Navigation Bar */
+nav{ display: flex; flex-direction: row; align-items: center; background-color: #1f4a6c; 
+    padding: 20px; position:static;
+}
+#logo{margin-left: 2%}
+nav a{ color:white; text-decoration: none;
+    margin-left: 100px; font-size: 14px; padding: 10px 20px 10px 20px;  
+    transition:  0.2s;
+}
+
+nav a:hover { font-weight: bold; background-color: #91d04e; padding: 10px 18px 10px 18px; /* top left buttom right */
+    border-radius: 60px; 
+    
+}
+
+.search-box{ margin-left: 90px; padding: 10px;
+    border-radius: 60px; border-style: none;
+}
+
+/* Home Page */
+body{ background-color: #ececec;
+}
+
+.home-page{ display:flex; padding:100px;}
+
+.collezian{ display:flex; font-size: 80px; margin-bottom: 50px; letter-spacing:10px;}
+
+.paragraph{overflow: hidden; flex-wrap: wrap; width:450px; height:150px; font-size: 18px;margin-bottom: 50px;}
+
+.background-image img{margin-left:5px; margin-top: 15%}
+
+/*Botton Design*/
+#btn1{border-style: none; border: 2px solid #91d04e;
+    color: #91d04e;
+    padding:10px 15px; 
+    transition: background-color 0.2s;
+}
+
+#btn2{border-style: none;
+    border: 2px solid #1f4a6c;
+    color:#1f4a6c;
+    padding:10px 25px; margin-left: 50px;
+    transition: background-color 0.2s;
+    
+}
+
+#btn1:active,#btn1:hover{border-style: none; border: 2px solid #91d04e; background-color:#91d04e; color: white;
+    padding:10px 15px;     
+}
+
+#btn2:active,#btn2:hover{border-style: none; border: 2px solid #1f4a6c; background-color:#1f4a6c; color:white;
+    padding:10px 25px;   margin-left: 50px;
+}
+
